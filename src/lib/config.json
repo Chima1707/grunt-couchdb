@@ -1,0 +1,9 @@
+{
+	"url" : "http://localhost:5984",
+	"user" : "",
+	"password" : "",
+	"bootstrapDir" : "couchdb/bootstrap",
+	"fixturesDir" : "couchdb/fixtures",
+	"adminParty" : false,
+	"baseDir" : "couchdb"
+}
