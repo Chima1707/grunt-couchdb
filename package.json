@@ -1,6 +1,6 @@
 {
   "name": "grunt-couchdb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "grunt couchdb pluggin",
   "main": "GruntFile.js",
   "scripts": {
