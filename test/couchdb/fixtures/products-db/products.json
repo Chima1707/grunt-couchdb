@@ -1,0 +1,14 @@
+{
+  "docs": [
+    {
+      "_id": "product_1",
+      "name": "product1",
+      "doc_type": "product"
+    },
+    {
+     "_id": "product_2",
+      "name": "product2",
+      "doc_type": "product"
+    }
+  ]
+}

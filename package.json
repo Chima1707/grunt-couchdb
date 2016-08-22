@@ -4,7 +4,7 @@
   "description": "grunt couchdb pluggin",
   "main": "GruntFile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && tap test/test_*.js --cov"
   },
   "dependencies": {
     "async": "1.5.2",
@@ -12,6 +12,18 @@
     "couchdb-cors-config": "1.0.0",
     "couchdb-ensure": "1.2.1",
     "request": "2.69.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-conventional-changelog": "~1.0.0",
+    "load-grunt-tasks": "~0.2.0",
+    "spawn-pouchdb-server": "3.3.1",
+    "standard": "7.1.2",
+    "tap": "6.3.0"
+  },
+  "standard": {
+    "ignore": [ "test/couchdb/" ]
   },
   "repository": {
     "type": "git",
